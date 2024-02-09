@@ -15,13 +15,9 @@ th,
 td {
   background-color: #7887ab;
   padding: 10px;
-  /* color: white; */
 }
 thead {
   color: var(--color-light);
-}
-tbody {
-  font-size: 0.8em;
 }
 thead th:first-child {
   border-top-left-radius: var(--border-radius);
@@ -48,8 +44,8 @@ thead p {
   margin: 0;
 }
 
-tfoot th:last-child {
-  border-bottom-right-radius: var(--border-radius);
+tbody {
+  font-size: 0.8em;
 }
 tbody td:first-child {
   padding-left: 2.5em;
@@ -80,6 +76,9 @@ tfoot th:first-child {
 }
 tfoot th:nth-child(even) {
   background-color: var(--color-norm);
+}
+tfoot th:last-child {
+  border-bottom-right-radius: var(--border-radius);
 }
 button {
   font-size: 0.7em;
